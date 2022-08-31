@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Enviar mensagem | Adopet</title>
+        <link rel="stylesheet" href="../componentes-css/reset.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../componentes-css/variaveis.css">
+        <link rel="stylesheet" href="../mensagem/estilo-mensagem/base-mensagem.css">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="nav-user__container-usuario">
+                <div class="nav-user">
+                    <img src="../img/Logo_header.svg" alt="Logotipo adopet" class="nav__logo">
+                    <ul class="nav">
+                        <li><a href="../animais/animais.html"><img class="nav-link" src="../icones/Casa.svg" alt="Ícone para home"></a></li>
+                        <li><a href="../mensagem/mensagem.html"><img class="nav-link" src="../icones/Mensagens.svg" alt="Ícone para mensagens"></a></li>
+                    </ul>
+                </div>
+                <a href="../inicial/index.html"><img class="nav-user__usuario" src="../icones/Usuário.svg" alt="Ícone de usuário"></a>
+            </div>
+        </header>
+
+        <main>
+            <section class="chamada">
+                <p class="chamada__texto chamada__mensagem">Envie uma mensagem para a pessoa ou instituição que está cuidando do animal:</p>
+            </section>
+
+            <fieldset class="cartao-inputs">
+                <div class="inputs-mensagem">
+                    <legend class="legenda__mensagem">Nome</legend>
+                    <input type="text" class="input__mensagem" placeholder="Insira seu nome completo" required>
+                    <legend class="legenda__mensagem">Telefone</legend>
+                    <input type="tel" class="input__mensagem" placeholder="Insira seu telefone e/ou whatsapp" required>
+                    <legend class="legenda__mensagem">Nome do animal</legend>
+                    <input type="text" class="input__mensagem" placeholder="Por qual animal você se interessou?" required>
+                    <legend class="legenda__mensagem">Mensagem</legend>
+                    <textarea name="mensagem" class="input__mensagem input__texto--mensagem" cols="30" rows="10" columns="50" placeholder="Escreva sua mensagem"></textarea>
+                    <a href="#" class="botao botao__enviar">Enviar</a>
+                </div>
+            </fieldset>
+
+        </main>
+
+        <footer>
+            <p>2022 - Desenvolvido por Alura.</p>
+        </footer>
+        
+    </body>
+</html> 
+    

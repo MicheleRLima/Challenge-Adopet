@@ -1,0 +1,32 @@
+@import url(../../componentes-css/header.css);
+@import url(../../componentes-css/botao.css);
+@import url(../../componentes-css/footer.css);
+@import url(../../login/estilo-login/botao-login.css);
+@import url(../../cadastro/estilo-cadastro/chamada-cadastro.css);
+@import url(../estilo-mensagem/chamada-mensagem.css);
+@import url(../estilo-mensagem/input-mensagem.css);
+@import url(../../perfil/estilo-perfil/perfil.css);
+
+
+
+
+body {
+    background-color: var(--branco);
+    background-image: url(../../img/Forma-1.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url(../../img/Forma-1.svg), url(../../img/Forma-2-inicial.svg);
+        background-position: top left, top 15rem right;
+        background-size: 35rem, 8rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-position: top left, top 10rem right;
+    }
+}

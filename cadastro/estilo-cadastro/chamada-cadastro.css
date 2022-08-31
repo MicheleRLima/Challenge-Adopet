@@ -1,0 +1,54 @@
+.chamada__texto {
+    font-family: var(--fonte);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--azul);
+    text-align: center;
+    line-height: 1.3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.chamada h1 {
+    padding-bottom: 0.6rem;
+}
+
+.chamada p {
+    padding-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .chamada__texto {
+        margin: 0 5rem;
+        font-size: 1.125rem;
+        line-height: 1.6rem;
+    }
+
+    .chamada h1 {
+        padding-bottom: 0;
+    }
+    
+    .chamada p {
+        padding-bottom: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .chamada {
+        max-width: 34.5rem;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .chamada__texto {
+        padding-left: 0;
+        padding-right: 0;
+        line-height: 1.6rem;
+    }
+
+    .chamada p {
+        padding-bottom: 2rem;
+        margin: 0;
+    }
+
+}

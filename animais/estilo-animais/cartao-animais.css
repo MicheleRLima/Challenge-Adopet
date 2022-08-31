@@ -1,0 +1,105 @@
+.cartao {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: var(--fonte);
+    color: var(--cinza-escuro);
+    background-color: var(--cinza-claro-fundo);
+    margin-top: 1rem;
+}
+
+.galeria__foto {
+    padding: 1rem 1rem;
+    align-self: center;
+}
+
+.galeria__dados {
+    padding: 1rem 1rem 1rem 0;
+    width: 50%;
+}
+
+.galeria__dados h2 {
+    color: var(--azul);
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+}
+
+.galeria__dados p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding-bottom: 1.875rem;
+}
+
+address {
+    font-size: 0.75rem;
+    padding-bottom: 0.5rem;
+}
+
+.galeria__dados a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.625rem;
+    text-decoration: none;
+    color: var(--cinza-escuro);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.galeria__dados a:hover {
+    -webkit-filter: drop-shadow(4px 0px 4px rgba(0,0,0,.3));
+    filter: drop-shadow(4px 0px 4px rgba(0,0,0,.3));
+}
+
+.galeria__icone {
+    padding-right: 0.5rem;
+}
+
+/* para fazer a pontinha da decoração */
+
+.cartao-primeiro {
+    background: var(--cinza-claro-fundo) url(../../img/Forma-1.svg) top -16rem left 0 no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+    .galeria {
+        display: flex;
+        justify-content: center;
+        margin: 0 2rem;
+    }
+
+    .cartao {
+        box-sizing: border-box;
+        margin-bottom: 1rem;
+        margin-top: 0;
+        width: 21.5rem;
+        height: auto;
+    }
+
+    .cartao-primeiro {
+        background-image: none;
+    }
+
+    .galeria__cointainer {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        max-width: 45rem;
+    }
+
+    .galeria__dados p, address {
+        color: var(--preto-cartao);
+    }
+
+    .galeria__dados a {
+        color: var(--preto-cartao);
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .galeria__cointainer {
+        max-width: 70rem;
+        padding-bottom: 3rem;
+    }
+}

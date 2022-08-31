@@ -1,0 +1,79 @@
+.cadastro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: var(--fonte);
+    font-weight: 400;
+    padding-bottom: 1rem;
+    margin: 0 2rem;
+}
+
+.cadastro legend {
+    color: var(--cinza-escuro);
+    font-size: 1rem;
+    padding-top: 1.6rem;
+    padding-bottom: 0.5rem;
+}
+
+input {
+    font-size: 0.75rem;
+    padding: 0.7rem 0;
+    text-align: center;
+    background-color: var(--cinza-claro-fundo);
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+input::placeholder {
+    color: var(--cinza-claro);
+
+}
+
+.senha {
+    background-image: url(../../icones/icone-olho.svg);
+    background-repeat: no-repeat;
+    background-position: top 0.7rem right 1rem;
+}
+
+input:focus, select:focus {
+    outline: 0;
+    border: 1px solid var(--azul);
+}
+
+@media screen and (min-width: 768px) {
+    .cadastro {
+        padding-bottom: 2rem;
+        margin: 0 13rem;
+    }
+
+    .cadastro legend {
+        font-size: 1.125rem;
+    }
+
+    .input {
+        font-size: 0.875rem;
+    }
+
+    input::placeholder {
+        font-size: 0.875rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .cadastro {
+        padding-bottom: 2rem;
+        margin: 0 auto;
+        max-width: 34.5rem;
+    }
+
+    .cadastro legend {
+        padding-bottom: 0.94rem
+    }
+
+    .senha {
+        width: 22.6rem;
+        margin: 0 auto;
+    }
+}

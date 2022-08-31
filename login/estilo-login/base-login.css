@@ -1,0 +1,35 @@
+@import url(../../componentes-css/header.css);
+@import url(../../componentes-css/botao.css);
+@import url(../../componentes-css/footer.css);
+@import url(../../cadastro/estilo-cadastro/Logo-cadastro.css);
+@import url(../../cadastro/estilo-cadastro/chamada-cadastro.css);
+@import url(../../cadastro/estilo-cadastro/input-cadastro.css);
+@import url(../estilo-login/esqueci-login.css);
+@import url(../estilo-login/botao-login.css);
+@import url(../estilo-login/chamada-login.css);
+
+
+
+body {
+    background-color: var(--branco);
+
+    background-image: url(../../img/Patas.svg), url(../../img/Forma-1.svg), url(../../img/Forma-2.svg);
+    background-repeat: no-repeat;
+    background-position: top right, top left, top 21rem left;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url(../../img/Patas.svg), url(../../img/Forma-1.svg), url(../../img/Forma-2-inicial.svg);
+        background-position: top right, top left, top 17rem right;
+        background-size: 13.5rem, 35rem, 8rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-image: url(../../img/Forma-1.svg), url(../../img/Forma-2-inicial.svg);
+        background-position: top left, top 14rem right;
+        background-size: 35rem, 8rem;
+    }
+}

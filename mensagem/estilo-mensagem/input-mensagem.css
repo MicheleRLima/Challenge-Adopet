@@ -1,0 +1,80 @@
+.cartao-inputs {
+    background-color: var(--cinza-claro-fundo);
+    margin: 1.5rem 1rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.inputs-mensagem {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 1rem;
+}
+
+.legenda__mensagem {
+    color: var(--azul);
+    font-family: var(--fonte);
+    font-weight: 600;
+    padding-bottom: 0.5rem; 
+}
+
+.input__mensagem {
+    color: var(--cinza-escuro);
+    font-family: var(--fonte);
+    font-size: 0.875rem;
+    font-weight: 400;
+    background-color: var(--branco);
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.input__mensagem::placeholder {
+    color: var(--cinza-claro);
+    font-family: var(--fonte);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.botao__enviar {
+    margin: 0 3.5rem;
+}
+
+.input__texto--mensagem {
+    padding: 1.4rem 1rem 0.5rem 1rem;
+    margin-bottom: 1.5rem;
+    box-sizing: border-box;
+    height: 10.75rem;
+}
+
+input:focus, select:focus {
+    outline: 0;
+    border: 1px solid var(--azul);
+}
+
+textarea:focus, select:focus {
+    outline: 0;
+    border: 1px solid var(--azul);
+}
+
+@media screen and (min-width: 768px) {
+    .cartao-inputs {
+        margin: 0.5rem 7.65rem 5rem 7.65rem;
+    }
+
+  
+}
+
+@media screen and (min-width: 1440px) {
+    .cartao-inputs {
+        margin: 0.5rem auto 5rem;
+        max-width: 34.5rem;
+    }
+
+    .botao__enviar {
+        width: 10.25rem;
+        margin: 0 auto;
+    }
+}
