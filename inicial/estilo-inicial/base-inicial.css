@@ -1,0 +1,26 @@
+@import url(../../componentes-css/header.css);
+@import url(../../componentes-css/botao.css);
+@import url(../../componentes-css/footer.css);
+@import url(../../inicial/estilo-inicial/principal-inicial.css);
+
+body {
+    background-color: var(--azul);
+
+    background-image: url(../../img/Forma-1-inicial.svg), url(../../img/Forma-2-inicial.svg), url(../../img/Ilustração-1.svg);
+    background-repeat: no-repeat;
+    background-position: top left, top 12.5rem right, bottom 5rem center;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-position: top left, top 12.5rem right, bottom 5rem center;
+        background-size: 35rem, 8rem, 19rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-position: top left, top 10rem right, bottom 5rem center;
+        background-size: 35rem, 8rem, 19rem;
+    }
+}

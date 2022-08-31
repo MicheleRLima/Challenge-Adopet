@@ -1,0 +1,105 @@
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+}
+
+.principal-texto {
+    color: var(--branco);
+    font-family: var(--fonte);
+    text-align: center;   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    margin: 0 3.5rem;
+}
+
+.principal-texto h1 {
+    font-size: 1.625rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+.principal p {
+    font-size: 1rem;
+    font-weight: 400;
+    font-weight: 400;
+}
+
+.principal a {
+    font-style: normal;
+}
+.principal-botao {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem 5rem 20rem 5rem;
+    gap: 1rem;
+}
+
+
+@media screen and (min-width: 768px) {
+    .logo {
+        margin-top: 12rem;
+        margin-bottom: 2.5rem;
+    }
+    
+    .logo img {
+        width: 15.7rem;
+        height: auto;
+    }
+
+    .principal-conteudo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 22rem;
+    }
+
+    .principal-texto {
+        margin: 0;
+    }
+
+    .principal-texto h1 {
+        font-size: 1.75rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .principal-texto p {
+        padding-bottom: 2.5rem;
+        font-size: 1.125rem;
+    }
+
+    .principal-botao {
+        width: 100%;
+        margin: 0 0 26.3rem 0;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .logo {
+        margin-top: 2.25rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .logo img {
+        width: 16.188rem;
+        height: auto;
+    }
+
+    .principal-conteudo {
+        max-width: 31rem;
+    }
+
+    .principal-botao {
+        max-width: 23rem;
+        margin-bottom: 27.6rem;
+    }
+}
+
