@@ -5,4 +5,4 @@ Desafio Front-end Alura 4ed
 
 >Proposta: o desafio tem por objetivo desenvolver apenas a parte visual, as funcionalidades não estão funcionando. 
 
-![Badge em desenvolvimento](https://img.shields.io/badge/Status-em%20desenvolvimento-blue)
+![Badge em desenvolvimento](https://img.shields.io/badge/Status-Finalizado-green)
